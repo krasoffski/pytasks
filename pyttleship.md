@@ -25,7 +25,6 @@ Pyttleship mandatory requirements
 
  - Implemented with Python 2.7.x.
  - Uses only python standard library.
- - Bases on Peer-to-peer ([P2P]) or [Client-Server] model.
  - Follows the Model–View–Controller ([MVC]) software architectural pattern.
  - Respects [PEP8].
  - Utilizes [REST], [XML-RPC] or [JSON-RPC] as a communication mechanism (*REST is preferable*).
