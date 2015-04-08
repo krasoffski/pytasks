@@ -30,7 +30,7 @@ Additional topics which might help you with home task (tips):
 
 Using internet browser:
 
-![browser example](https://git.epam.com/yury_krasouski/pycourse-tasks/raw/master/images/browser.png)
+![browser example](https://raw.githubusercontent.com/krasoffski/pytasks/master/images/browser.png)
 
 And at the same time:
 ```bash
