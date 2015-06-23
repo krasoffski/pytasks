@@ -60,4 +60,4 @@ Pyttleship not mandatory requirements
 [JSON-RPC]:https://en.wikipedia.org/wiki/JSON-RPC
 [OOP]:https://en.wikipedia.org/wiki/Object-oriented_programming
 [PEP8]:https://www.python.org/dev/peps/pep-0008/
-[Yury Krasouski]:mailto:yury_krasouski@epam.com
+[Yury Krasouski]:mailto:krasoffski@gmail.com
