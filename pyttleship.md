@@ -14,23 +14,22 @@ In our python implementation of game we are going to follow Russian rules:
 
 |Type of ship                | Deckers | Ships |
 |----------------------------|--------:|------:|
-|battleship (линкор)         |    4    |   1   |
-|cruiser (крейсер)           |    3    |   2   |
-|destroyer (эсминец)         |    2    |   3   |
-|submarine (подводная лодка) |    1    |   4   |
+|battleship                  |    4    |   1   |
+|cruiser                     |    3    |   2   |
+|destroyer                   |    2    |   3   |
+|submarine                   |    1    |   4   |
 
 
 Pyttleship mandatory requirements
 ---------------------------------
 
- - Implemented with Python 2.7.x.
+ - Implemented with Python 2.7/3.5
  - Uses only python standard library.
- - Follows the Model–View–Controller ([MVC]) software architectural pattern.
  - Respects [PEP8].
- - Utilizes [REST], [XML-RPC] or [JSON-RPC] as a communication mechanism (*REST is preferable*).
+ - Utilizes one from [REST], [XML-RPC] or [JSON-RPC] as a communication mechanism (*REST is preferable*).
  - Uses powerful of [OOP] where it makes sense.
  - Provides usefull logging.
- - Can be launched on Linux.
+ - Should be launched on Linux.
  - Well documented.
 
 
@@ -41,7 +40,7 @@ Pyttleship not mandatory requirements
  - Providers game statistics for all/each user.
  - Can be installed in system as python package (setup.py and whl).
  - Covered by unit tests.
- - Game statistics can be expoted to cvs file/stdout.
+ - Game statistics can be expoted to csv file/stdout.
  - Provides API for adding plugings for expoting game statistics to other formats.
  - Supports multiplayer for Client-Server model.
 
@@ -49,7 +48,7 @@ Pyttleship not mandatory requirements
 [Yury Krasouski]
 
 ##### Version
-1.1.0
+1.1.1
 
 [Client-Server]:http://en.wikipedia.org/wiki/Client%E2%80%93server_model
 [battleship]:https://en.wikipedia.org/wiki/Battleship_(game)
@@ -60,4 +59,3 @@ Pyttleship not mandatory requirements
 [JSON-RPC]:https://en.wikipedia.org/wiki/JSON-RPC
 [OOP]:https://en.wikipedia.org/wiki/Object-oriented_programming
 [PEP8]:https://www.python.org/dev/peps/pep-0008/
-[Yury Krasouski]:mailto:krasoffski@gmail.com
