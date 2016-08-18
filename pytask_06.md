@@ -67,20 +67,17 @@ Create simple linter metaclass wich can produce following checks:
 Example:
 
 ```python
->>> from miscripts import LinterMeta
->>> class Creature(object):
-...     __metaclass__ = LinterMeta
-...     def __init__(self, genus):
-...         self.genus = genus
-...     def sound(self, msg):
-...         print "{0}: {1}".format(self.genus, msg)
-...
-
->>> man = Creature('man')
-Traceback (most recent call last):
-  File "...", line 20, in <module>
-    man.sound
-AttributeError: 'sound' has no documentation sting.
+class Creature(object):
+    __metaclass__ = LinterMeta
+    def __init__(self, genus):
+        self.genus = genus
+    def sound(self, msg):
+        print "{0}: {1}".format(self.genus, msg)
+man = Creature('man')
+# Traceback (most recent call last):
+#  File "...", line 20, in <module>
+#    man.sound
+# AttributeError: 'sound' has no documentation sting.
 ```
 
 
@@ -114,4 +111,3 @@ Example:
 >>> foo.mul(10)  # Tooks 10 sec to get result again. Cache expired.
 1000
 ```
-
