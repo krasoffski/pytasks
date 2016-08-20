@@ -99,7 +99,7 @@ JSON output should look like:
     },
     {
       "job_id": 33,
-      "command": "ls -lah /etc"
+      "command": "ls -lah /etc",
       "created": "2016-08-19T15:31:42.201"
     }
   ]
