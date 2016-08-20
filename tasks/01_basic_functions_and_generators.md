@@ -13,12 +13,12 @@ Study following links:
 
 ## Subtask 1
 
-Create function factory `add_factory` using 3 different approaches:
+Create simple function factory `add_factory` using 3 different approaches:
 
 ```python
->>> add5 = add_factory(5)
->>> print add5(10)
-15
+add5 = add_factory(5)
+print add5(10)
+# 15
 ```
 
 
@@ -26,23 +26,24 @@ Create function factory `add_factory` using 3 different approaches:
 
 Create function `reddit` for downloading popular topics from www.reddir.org
 using closure and generator. Do not produce full `list` of topics from json
-file. E.g. `reddit(sub_reddit)` returns function which returns generator over
-titles from reddit page:
+output but yield single topic. E.g. `reddit(sub_reddit)` returns function which
+returns generator over titles from reddit page:
 
 ```python
->>> python = reddit(“python”)
->>> golang = reddit(“golang”)
->>> for title in python():  # Here json data is fetched.
-...    print repr(title)
-u'Porting to Python 3 book is on github'
-u'An Overview of using WebSockets in Python'
+python = reddit(“python”)
+golang = reddit(“golang”)
+for title in python():  # Here json data is fetched.
+    print repr(title)
+# u'Porting to Python 3 book is on github'
+# u'An Overview of using WebSockets in Python'
+# ...
 
->>> for title in golang():  # here json data is fetched
-...     print title
-- // -
+for title in golang():  # here json data is fetched
+    print title
 ```
 _Note 1: use following url `http://www.reddit.com/r/python.json` for getting
 subreddit information in `json` format._
 
 _Note 2: to limit number of topics for printing you can use `itertools` module:
 `itertools.islice(golang(), 5)`._
+
