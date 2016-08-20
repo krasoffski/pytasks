@@ -43,7 +43,7 @@ In our python implementation of game we are going to follow Russian rules:
  - Supports multi-player.
 
 ##### Author
-[Yury Krasouski]
+Yury Krasouski
 
 ##### Version
 1.1.2
