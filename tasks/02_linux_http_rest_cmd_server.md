@@ -95,7 +95,7 @@ JSON output should look like:
     {
       "job_id": 1,
       "command": "ifconfig",
-      "created: "2016-08-09T18:31:42.201"
+      "created": "2016-08-09T18:31:42.201"
     },
     {
       "job_id": 33,
