@@ -9,6 +9,8 @@ Study following links:
  - https://docs.python.org/2/library/operator.html
  - https://docs.python.org/2/howto/functional.html
  - http://youtu.be/Ta1bAMOMFOI
+ - https://wiki.python.org/moin/Generators
+ - https://jeffknupp.com/blog/2013/04/07/improve-your-python-yield-and-generators-explained/
 
 
 ## Subtask 1
@@ -47,3 +49,25 @@ subreddit information in `json` format._
 _Note 2: to limit number of topics for printing you can use `itertools` module:
 `itertools.islice(golang(), 5)`._
 
+
+## Subtask 3
+
+Create function `planify` and generator `planify2` to expand a nested sequence.
+
+For example, you have nested sequences such as `list`, `tuple`, `MyList`:
+
+```python
+class MyList(list):
+    def __str__(self):
+        return "<MyList>"
+
+seq = ('abc', 3, [8, ('x', 'y'), MyList(xrange(5)), [100, [99, [98, [97]]]]])
+print planify(seq)
+# ['abc', 3, 8, 'x', 'y', 0, 1, 2, 3, 4, 100, 99, 98, 97]
+gen = planify2(seq)
+print type(gen)
+# <type 'generator'>
+print list(gen)
+# ['abc', 3, 8, 'x', 'y', 0, 1, 2, 3, 4, 100, 99, 98, 97]
+```
+_Note 1: let's take the possible depth of nesting no more than 100._
