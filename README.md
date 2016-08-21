@@ -50,4 +50,6 @@ with open('/tmp/file.txt') as fd:
 ### [REST service and threading](tasks/02_linux_http_rest_cmd_server.md)
  1. REST service for background job execution.
  2. Enhancements for existing REST service.
- _Note: will be moved becouse requires understading threading/multiprocessing._
+
+ _Note: REST and threading will be moved becouse requires understading
+ threading/multiprocessing and queues._
