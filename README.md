@@ -43,11 +43,11 @@ with open('/tmp/file.txt') as fd:
 ## Content
 
 ### [Functions and generators](tasks/01_functions_and_generators.md)
- - 1. Very simple function factory.
- - 2. Generator for downloading topics from reddit using closure.
- - 3. Function and generator for expanding nested sequences.
+ 1. Very simple function factory.
+ 2. Generator for downloading topics from reddit using closure.
+ 3. Function and generator for expanding nested sequences.
 
 ### [REST service and threading](tasks/02_linux_http_rest_cmd_server.md)
- - 1. REST service for background job execution.
- - 2. Enhancements for existing REST service.
+ 1. REST service for background job execution.
+ 2. Enhancements for existing REST service.
  _Note: will be moved becouse requires understading threading/multiprocessing._
