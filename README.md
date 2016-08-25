@@ -54,13 +54,12 @@ with open('/tmp/file.txt') as fd:
  _Note: REST and threading will be moved because requires understanding
  threading/multiprocessing and queues._
 
- ### [Battleship game](tasks/pyttleship.md)
+### [Battleship game](tasks/pyttleship.md)
+`Pyttleship` is python implementation of world-popular game [Battleship].
+The main idea of `Pyttleship` is to gather all tasks described above and build
+interesting network game. At first look this game seems quite simple but
+during thinking about the future game architecture many question will arise.
 
- `Pyttleship` is python implementation of world-popular game [Battleship].
- The main idea of `Pyttleship` is to gather all tasks described above and build
- interesting network game. At first look this game seems quite simple but
- during thinking about the future game architecture many question will arise.
-
- Happy codding!
+Happy codding!
 
 [battleship]:https://en.wikipedia.org/wiki/Battleship_(game)
