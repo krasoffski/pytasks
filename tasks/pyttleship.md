@@ -24,23 +24,23 @@ In our python implementation of game we are going to follow Russian rules:
  - Implemented with Python 2.7/3.5 (or compatible with both of them).
  - Uses only python standard library.
  - Respects [PEP8].
- - Utilizes one from [REST], [XML-RPC] or [JSON-RPC] as a communication
-   mechanism (*REST is preferable*).
+ - Utilizes [REST] , as a communication mechanism.
  - Uses powerful of [OOP] where it makes sense.
  - Provides usefull logging.
  - Should be launched on Linux.
  - Well documented.
+ - Covered by unit tests.
 
 
 ## Pyttleship not mandatory requirements
 
- - Covered by unit tests.
- - Can be launched on Windows.
  - Providers game statistics for all/each user.
  - Can be installed in system as python package (setup.py and whl).
- - Game statistics can be expoted to csv file/stdout.
- - Provides API for adding plugings for exporting statistics to other formats.
- - Supports multi-player.
+ - Game statistics can be exported to csv file/stdout.
+ - Provides API for adding plug-ins for exporting game statistics to other
+   formats.
+ - Supports multi-player model (a few games at the same time).
+
 
 ##### Author
 Yury Krasouski
@@ -50,7 +50,5 @@ Yury Krasouski
 
 [battleship]:https://en.wikipedia.org/wiki/Battleship_(game)
 [REST]:https://en.wikipedia.org/wiki/Representational_state_transfer
-[XML-RPC]:https://en.wikipedia.org/wiki/XML-RPC
-[JSON-RPC]:https://en.wikipedia.org/wiki/JSON-RPC
 [OOP]:https://en.wikipedia.org/wiki/Object-oriented_programming
 [PEP8]:https://www.python.org/dev/peps/pep-0008/
