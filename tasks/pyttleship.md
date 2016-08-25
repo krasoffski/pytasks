@@ -42,7 +42,11 @@ In our python implementation of game we are going to follow Russian rules:
  - Supports multi-player model (a few games at the same time).
 
 _Note: you can implement client for web browser using JavaScript, TKinter for
-GUI client or [curses (ncurses)] for CLI fans.
+GUI client or [curses (ncurses)] for CLI fans._
+
+_Note: if you became boring with implementation of you own "web framework you
+can use any popular such as `flask`, `itty`, `Bottle`, `web2py`, `falcon`._
+
 
 ##### Author
 Yury Krasouski
