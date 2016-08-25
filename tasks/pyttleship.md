@@ -24,9 +24,9 @@ In our python implementation of game we are going to follow Russian rules:
  - Implemented with Python 2.7/3.5 (or compatible with both of them).
  - Uses only python standard library.
  - Respects [PEP8].
- - Utilizes [REST] , as a communication mechanism.
+ - Utilizes [REST] as a communication mechanism.
  - Uses powerful of [OOP] where it makes sense.
- - Provides usefull logging.
+ - Provides useful logging.
  - Should be launched on Linux.
  - Well documented.
  - Covered by unit tests.
@@ -34,13 +34,15 @@ In our python implementation of game we are going to follow Russian rules:
 
 ## Pyttleship not mandatory requirements
 
- - Providers game statistics for all/each user.
+ - Provides game statistics for all/each user (leaderboard).
  - Can be installed in system as python package (setup.py and whl).
  - Game statistics can be exported to csv file/stdout.
  - Provides API for adding plug-ins for exporting game statistics to other
    formats.
  - Supports multi-player model (a few games at the same time).
 
+_Note: you can implement client for web browser using JavaScript, TKinter for
+GUI client or [curses (ncurses)] for CLI fans.
 
 ##### Author
 Yury Krasouski
@@ -52,3 +54,4 @@ Yury Krasouski
 [REST]:https://en.wikipedia.org/wiki/Representational_state_transfer
 [OOP]:https://en.wikipedia.org/wiki/Object-oriented_programming
 [PEP8]:https://www.python.org/dev/peps/pep-0008/
+[curses (ncurses)]:https://docs.python.org/2.7/howto/curses.html
