@@ -39,8 +39,8 @@ with open('/tmp/file.txt') as fd:
 
 ### Bash examples
 
-Usually all bash command starts with `PS1` prompt. In our case it is a `$` sign
-for basic user. In case we need `root` privilege prompt will starts with `#`.
+Usually all bash command starts with `PS1` prompt. It is a `$` sign for basic
+user. In case we need `root` privilege prompt will be a `#` sign.
 
 ```bash
 $ curl -i http://localhost:8000/api/jobs
@@ -51,8 +51,8 @@ which belong to the command are indented using four spaces to distinguish with
 command output. For example:
 
 ```bash
-**$ curl -X POST -H 'Content-Type: application/json'
-    -d '{"command": "cp /tmp/file /mnt/nfs/"}' http://localhost:8000/api/jobs**
+$ curl -X POST -H 'Content-Type: application/json'
+    -d '{"command": "cp /tmp/file /mnt/nfs/"}' http://localhost:8000/api/jobs
 HTTP/1.0 202 Accepted
 Location: /api/statuses/45
 ```
@@ -70,8 +70,8 @@ Location: /api/statuses/45
  1. REST service for background job execution.
  2. Enhancements for existing REST service.
 
- _Note: REST and threading will be moved because requires understanding
- threading/multiprocessing and queues._
+_Note: REST and threading will be moved because requires understanding
+threading/multiprocessing and queues._
 
 ## [Battleship game](tasks/pyttleship.md)
 `Pyttleship` is python implementation of world-popular game [Battleship].
