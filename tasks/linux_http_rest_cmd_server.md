@@ -84,7 +84,7 @@ headers. Moreover, JSON outputs provided as examples and can be enhanced.
 Ok, let's retrieve a list of submitted jobs:
 
 ```bash
-$ curl -i http://localhost:8000/api/jobs`
+$ curl -i http://localhost:8000/api/jobs
 ```
 
 JSON output should look like:
@@ -159,7 +159,7 @@ JSON output might look like:
 }
 ```
 
-*Note: it is better to use `http` command for debug purposes.*
+_Note: it is better to use `http` command for debug purposes._
 
 
 ## Subtask 2*

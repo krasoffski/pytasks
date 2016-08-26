@@ -43,6 +43,7 @@ for title in python():  # Here json data is fetched.
 for title in golang():  # here json data is fetched
     print title
 ```
+
 _Note 1: use following url `http://www.reddit.com/r/python.json` for getting
 subreddit information in `json` format._
 
@@ -70,4 +71,5 @@ print type(gen)
 print list(gen)
 # ['abc', 3, 8, 'x', 'y', 0, 1, 2, 3, 4, 100, 99, 98, 97]
 ```
+
 _Note 1: let's take the possible depth of nesting no more than 100._
