@@ -56,7 +56,7 @@ Host minion2
 The simplified screen of your curses application might look like:
 ![SSH viewer](https://raw.githubusercontent.com/krasoffski/pytasks/master/assets/ssh_curses.png)
 
-Usecase is next:
+Usage case is next:
  1. User starts script in a Linux termnal.
  2. Using `j` or `k` keys selects required row with host entry.
  3. Pressing `Enter` or `o` keys opens remote session using system ssh command.

@@ -6,9 +6,10 @@ This repository contains Python tasks which might help to improve your Python
 level. I'm going to add different tasks based on books, sites, real live
 examples. Some of them might be tricky or not-well described. Feel free to ask
 any question or add pull requests with clarification. I try hard to add
-interesting tasks so sometimes it requires a time.
+interesting tasks so sometimes it requires a time. Moreover, I highly recommend
+to perform final task [pyttleship](tasks/pyttleship.md).
 
-Not to mention the fact, that main goal of this tasks is use only Python
+Not to mention the fact, that main goal of this tasks is to use only Python
 standard library. Task designed for `python2.7` but can be easily adopted for
 3th version of Python.
 
@@ -19,7 +20,7 @@ Here is some notes about code conventions.
 ### Python examples
 
 Usually python examples contain code and expected output which is commented
-with `# ` characters. Let me show you example:
+with `#` characters. Let me show you example:
 
 ```python
 from itertools import permutations
@@ -27,7 +28,7 @@ print list(permutations('abc', 2))
 # [('a', 'b'), ('a', 'c'), ('b', 'a'), ('b', 'c'), ('c', 'a'), ('c', 'b')]
 ```
 
-One more example with exception:
+Another python example with exception:
 
 ```python
 with open('/tmp/file.txt') as fd:
@@ -39,25 +40,23 @@ with open('/tmp/file.txt') as fd:
 
 ### Bash examples
 
-Usually all bash command starts with `PS1` prompt. It is a `$` sign for basic
-user. In case we need `root` privilege prompt will be a `#` sign.
+Usually all bash commands start with `PS1` prompt. It is a `$` sign for basic
+user. In case we need a `root` privilege prompt will be a `#` sign.
 
 ```bash
 $ curl -i http://localhost:8000/api/jobs
 ```
 
-Long command are wrapped with backslash `\\` to avoid scrolling. All lines
+Long commands are wrapped with backslash to avoid scrolling. All lines
 which belong to the command are indented using four spaces to distinguish with
 command output. For example:
 
 ```bash
-$ curl -X POST -H 'Content-Type: application/json'
+$ curl -X POST -H 'Content-Type: application/json' \
     -d '{"command": "cp /tmp/file /mnt/nfs/"}' http://localhost:8000/api/jobs
 HTTP/1.0 202 Accepted
 Location: /api/statuses/45
 ```
-
-### JSON examples
 
 ## Content
 
@@ -77,7 +76,7 @@ Location: /api/statuses/45
 `Pyttleship` is python implementation of world-popular game [Battleship].
 The main idea of `Pyttleship` is to gather all tasks described above and build
 interesting network game. At first look this game seems quite simple but
-during thinking about the future game architecture many question will arise.
+during thinking about the future game architecture many questions will arise.
 
 Happy codding!
 

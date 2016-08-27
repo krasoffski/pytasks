@@ -27,7 +27,7 @@ print add5(10)
 ## Subtask 2
 
 Create function `reddit` for downloading popular topics from www.reddir.org
-using closure and generator. Do not produce full `list` of topics from json
+using closure and generator. Do not produce a full `list` of topics from json
 output but yield single topic. E.g. `reddit(sub_reddit)` returns function which
 returns generator over titles from reddit page:
 
@@ -40,7 +40,7 @@ for title in python():  # Here json data is fetched.
 # u'An Overview of using WebSockets in Python'
 # ...
 
-for title in golang():  # here json data is fetched
+for title in golang():  # Here json data is fetched
     print title
 ```
 

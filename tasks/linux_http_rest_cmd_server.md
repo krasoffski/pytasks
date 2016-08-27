@@ -18,14 +18,14 @@ Useful tools:
 ## Subtask 1
 
 Create HTTP REST service witch asynchronously executes shell commands
-on host. Please, find more details bellow.
+on a Linux host. Please, find more details bellow.
 
 Here are some important requirements:
  - Uses only python standard library.
  - Returns appropriate HTTP codes for responses.
  - At the same time can be executed a few commands.
  - Utilizes recommended practices for creating REST services.
- - Pay attention on HTTP headers and encoding (respects Cyrillic alphabet).
+ - Pay attention on HTTP headers and encodings (respects Cyrillic alphabet).
 
 ### Service API endpoints examples
 
@@ -33,10 +33,10 @@ Here are some important requirements:
 
  - `http://localhost:8000/api/jobs`
 
-| HTTP Method | Action                       |
-|-------------|:-----------------------------|
-| GET         | Gets list of existing jobs.  |
-| POST        | Creates new job for command. |
+| HTTP Method | Action                         |
+|-------------|:-------------------------------|
+| GET         | Gets list of existing jobs.    |
+| POST        | Creates new job for a command. |
 
  - `http://localhost:8000/api/jobs/12`
 
@@ -167,7 +167,7 @@ _Note: it is better to use `http` command for debug purposes._
 Optional.
 
 TODO:
- - Add add ability to specify queries such as sort, search, etc.
+ - Add ability to specify queries such as sort, search, etc.
  - Removing tasks sequentially removes job result and status.
  - Authentication via token.
  - Etc.
