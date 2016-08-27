@@ -32,8 +32,8 @@ output but yield single topic. E.g. `reddit(sub_reddit)` returns function which
 returns generator over titles from reddit page:
 
 ```python
-python = reddit(“python”)
-golang = reddit(“golang”)
+python = reddit("python")
+golang = reddit("golang")
 for title in python():  # Here json data is fetched.
     print repr(title)
 # u'Porting to Python 3 book is on github'
