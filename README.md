@@ -66,12 +66,12 @@ Location: /api/statuses/45
  2. Generator for downloading topics from reddit using closure.
  3. Function and generator for expanding nested sequences.
 
+### [Subprocess and regular expression](tasks/subprocess_curses_and_regexp.md)
+ 1. Curses based ssh config file viewer.
+
 ### [REST service and threading](tasks/linux_http_rest_cmd_server.md)
  1. REST service for background job execution.
  2. Enhancements for existing REST service.
-
-_Note: REST and threading will be moved because requires understanding
-threading/multiprocessing and queues._
 
 ## [Battleship game](tasks/pyttleship.md)
 `Pyttleship` is python implementation of world-popular game [Battleship].
