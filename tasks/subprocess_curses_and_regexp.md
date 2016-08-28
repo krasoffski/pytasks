@@ -21,6 +21,7 @@ curses interface and opens connection to selected `Host` by pressing `Enter` or
 Some notes about implementation:
  - Uses system ssh command.
  - Supports vim-like motion (`j`, `k`).
+ - Open shh connection via user shell.
 
 For example, your `~/.ssh/config` contains following entries:
 
@@ -31,9 +32,9 @@ Host *
     ServerAliveCountMax 2
 
 Host cobbler
+    IdentityFile ~/.ssh/cobbler.id_rsa
     User cobbler
     Hostname 10.10.10.1
-    IdentityFile ~/.ssh/cobbler.id_rsa
 
 Host jenkins
     User jenkins
@@ -45,8 +46,8 @@ Host git
     IdentityFile ~/.ssh/git.id_rsa
 
 Host minion1
-    User root
     Hostname salt-minion1.int.example.com
+    User root
 
 Host minion2
     User root
