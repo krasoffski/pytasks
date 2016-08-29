@@ -110,4 +110,3 @@ Output should look like:
 **NOTE:** Try to implement your own words counter, link finder (do not just copy from examples above).
 
 **NOTE:** Try to implement your home tasks for multiprocessing using different aproches.
-
