@@ -1,4 +1,4 @@
-# Python Task 02
+# Linux HTTP REST service
 
 ## Helpful information
 
