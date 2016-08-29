@@ -15,7 +15,7 @@ standard library. Task designed for `python2.7` but can be easily adopted for
 
 ## Conventions
 
-Here is some notes about code conventions.
+Here are some notes about code conventions.
 
 ### Python examples
 
