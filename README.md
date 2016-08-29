@@ -58,7 +58,7 @@ HTTP/1.0 202 Accepted
 Location: /api/statuses/45
 ```
 
-## Content
+## Python tasks
 
 ### [Functions and generators](tasks/functions_and_generators.md)
  1. Very simple function factory.
