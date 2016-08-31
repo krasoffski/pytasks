@@ -10,8 +10,8 @@ interesting tasks so sometimes it requires a time. Moreover, I highly recommend
 to perform final task [pyttleship](tasks/pyttleship.md).
 
 Not to mention the fact, that main goal of this tasks is to use only Python
-standard library. Task designed for `python2.7` but can be easily adopted for
-3th version of Python.
+standard library. Most of all tasks designed for `python2.7` but can be easily
+adopted for 3th version of Python.
 
 ## Conventions
 
@@ -65,7 +65,7 @@ Location: /api/statuses/45
  2. Generator for downloading topics from reddit using closure.
  3. Function and generator for expanding nested sequences.
 
-### [Subprocess and regular expression](tasks/subprocess_curses_and_regexp.md)
+### [Subprocess and regular expressions](tasks/subprocess_curses_and_regexp.md)
  1. Curses based ssh config file viewer.
 
 ### [REST service and threading](tasks/linux_http_rest_cmd_server.md)
