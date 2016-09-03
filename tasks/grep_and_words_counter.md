@@ -43,8 +43,5 @@ $ grep.py -R -n 'user' /etc
 /etc/pam.d/sudo:3:auth       required   pam_env.so readenv=1 user_readenv=0
 ```
 
-_Note: try to implement your own words counter, link finder (do not just
-copy from examples above)._
-
-_Note: try to implement your home tasks for multiprocessing using different
-aproches._
+_Note: try to implement your own words counter (do not just copy from examples
+above)._
