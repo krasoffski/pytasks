@@ -61,16 +61,25 @@ Location: /api/statuses/45
 ## Python tasks
 
 ### [Functions and generators](tasks/functions_and_generators.md)
- 1. Very simple function factory.
- 2. Generator for downloading topics from reddit using closure.
- 3. Function and generator for expanding nested sequences.
+ - Very simple function factory.
+ - Generator for downloading topics from reddit using closure.
+ - Function and generator for expanding nested sequences.
 
 ### [Subprocess and regular expressions](tasks/subprocess_curses_and_regexp.md)
- 1. Curses based ssh config file viewer.
+ - Curses based ssh config file viewer.
 
 ### [REST service and threading](tasks/linux_http_rest_cmd_server.md)
- 1. REST service for background job execution.
- 2. Enhancements for existing REST service.
+ - REST service for background job execution.
+ - Enhancements for existing REST service.
+
+### [Multiprocess grep and word counter](tasks/grep_and_words_counter.md)
+ - Word counter in text files.
+ - Simple analogue of Linux `grep` command.
+
+### Coming soon...
+ - Descriptors and properties.
+ - Plug-ins in python.
+ - Metaclasses.
 
 ## [Battleship game](tasks/pyttleship.md)
 `Pyttleship` is python implementation of world-popular game [Battleship].

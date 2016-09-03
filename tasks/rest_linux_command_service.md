@@ -1,4 +1,4 @@
-# Linux HTTP REST service
+# REST Linux command service
 
 ## Helpful information
 
@@ -162,12 +162,9 @@ JSON output might look like:
 _Note: it is better to use `http` command for debug purposes._
 
 
-## Subtask 2*
+## Subtask 2
 
-Optional.
-
-TODO:
- - Add ability to specify queries such as sort, search, etc.
- - Removing tasks sequentially removes job result and status.
- - Authentication via token.
- - Etc.
+Add following enhancement to your existing service:
+ - Add ability to specify search query to GET request.
+ - Create `Mixin` class with add SSL to you HTTP server.
+ - Authentication via "token".
