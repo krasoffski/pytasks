@@ -11,7 +11,7 @@ Study following links:
 
 ## Subtask 1
 
-Create multiprocessing function `words_counter` to count occurrence of words in
+Create multiprocess function `words_counter` to count occurrence of words in
 text files in specified path like on example:
 
 ```python
@@ -31,7 +31,7 @@ pprint(words)
 
 ## Subtask 2
 
-Create multiprocessing script `grep.py` analog of Linux `grep` command for
+Create multiprocess script `grep.py` analog of Linux `grep` command for
 performing parallel search. Nice to have following option implemented:
  - `-R` recursive search
  - `-n` number of line
