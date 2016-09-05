@@ -21,7 +21,7 @@ curses interface and opens connection to selected `Host` by pressing `Enter` or
 Some notes about implementation:
  - Uses system ssh command.
  - Supports vim-like motion (`j`, `k`).
- - Open shh connection via user shell.
+ - Open ssh connection via user shell.
 
 For example, your `~/.ssh/config` contains following entries:
 
