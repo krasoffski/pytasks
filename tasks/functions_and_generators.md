@@ -26,7 +26,7 @@ print add5(10)
 
 ## Subtask 2
 
-Create function `reddit` for downloading popular topics from www.reddir.org
+Create function `reddit` for downloading popular topics from www.reddit.com
 using closure and generator. Do not produce a full `list` of topics from json
 output but yield single topic. E.g. `reddit(sub_reddit)` returns function which
 returns generator over titles from reddit page:
