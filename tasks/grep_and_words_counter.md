@@ -1,4 +1,4 @@
-# Multiprocess grep and word counter
+# Grep a
 
 ## Helpful information
 
@@ -18,7 +18,7 @@ text files in specified path like on example:
 exclude = ["if", "else", "on", "at"]
 words = words_counter(path='/home/keda',
                       glob_patterns=('*.py', '*.txt'),
-                      ingnored_words=('else', 'ret*'),
+                      ignored_words=('else', 'ret*'),
                       min_word_len=3)
 pprint(words)
 # {
