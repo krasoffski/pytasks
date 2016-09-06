@@ -1,4 +1,4 @@
-# Multiprocessing
+# Multiprocess grep and word counter
 
 ## Helpful information
 
