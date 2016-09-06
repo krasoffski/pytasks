@@ -1,4 +1,4 @@
-# Grep a
+# Multiprocessing, grep and word counter
 
 ## Helpful information
 
