@@ -68,7 +68,7 @@ Location: /api/statuses/45
 ### [Subprocess and regular expressions](tasks/subprocess_curses_and_regexp.md)
  - Curses based ssh config file viewer.
 
-### [REST service and threading](tasks/linux_http_rest_cmd_server.md)
+### [REST service and threading](tasks/rest_linux_command_service.md)
  - REST service for background job execution.
  - Enhancements for existing REST service.
 
