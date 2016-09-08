@@ -25,7 +25,8 @@ Here are some important requirements:
  - Returns appropriate HTTP codes for responses.
  - At the same time can be executed a few commands.
  - Utilizes recommended practices for creating REST services.
- - Pay attention on HTTP headers and encodings (respects Cyrillic alphabet).
+ - Pay attention on HTTP headers and encodings.
+ - Respects Cyrillic alphabet for requests and responces.
 
 ### Service API endpoints examples
 
