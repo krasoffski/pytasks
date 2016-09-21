@@ -15,7 +15,6 @@ Create multiprocess function `words_counter` to count occurrence of words in
 text files in specified path like on example:
 
 ```python
-exclude = ["if", "else", "on", "at"]
 words = words_counter(path='/home/keda',
                       glob_patterns=('*.py', '*.txt'),
                       ignored_words=('else', 'ret*'),
