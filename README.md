@@ -90,7 +90,7 @@ during thinking about the future game architecture many questions will arise.
 ## Recommended literature
  - Python Essential Reference (4th Edition) - David Beazley
  - Fluent Python (1st Edition) - Luciano Ramalho
- - Python Cookbook (3rd Edition) - by David Beazley
+ - Python Cookbook (3rd Edition) - David Beazley
  - The Python Standard Library by Example (1st Edition) - Doug Hellmann
 
 Happy codding!
