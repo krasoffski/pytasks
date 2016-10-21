@@ -76,9 +76,10 @@ Location: /api/statuses/45
  - Word counter in text files.
  - Simple analogue of Linux `grep` command.
 
-### Coming soon...
+### Coming soon (not described ideas)...
  - Descriptors and properties.
  - Plug-ins in python.
+ - Python reminder for linux. 
  - Metaclasses.
 
 ## [Battleship game](tasks/pyttleship.md)
