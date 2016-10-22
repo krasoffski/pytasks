@@ -1,5 +1,9 @@
 # Python tasks for self-study
 
+## [Getting started with Python](getting_started_with_python.md)
+
+TODO: Define plan for learning Python.
+
 ## Introduction
 
 This repository contains Python tasks which might help to improve your Python
