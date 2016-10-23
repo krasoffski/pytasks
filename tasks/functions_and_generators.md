@@ -73,3 +73,30 @@ print list(gen)
 ```
 
 _Note 1: let's take the possible depth of nesting no more than 100._
+
+
+## Subtask 4
+
+Make a generator `izip_repeat(*iters)` that aggregates elements from each of
+the iterables (sequences). If the iterables are of uneven (short) length,
+missing values are filled-in with elements of iterable started with beginning.
+
+See usage examples bellow:
+
+```python
+print list(izip_repeat([0, 1, 2], 'mn'))
+# [(0, 'm'), (1, 'n'), (2, 'm')]
+print list(izip_repeat('ABCD', 'xy'))
+# [('A', 'x'), ('B', 'y'), ('C', 'x'), ('D', 'y')]
+print list(izip_repeat('xy', ['mn', 'op'] , range(5)))
+# [('x', 'mn', 0), ('y', 'op', 1), ('x', 'mn', 2), ('y', 'op', 3), ('x', 'mn', 4)]
+```
+
+Moreover, make sure you careated a generator not function:
+
+```python
+import types
+g = izip_repeat('ab', [0, 1])
+isinstance(g, types.GeneratorType)
+# True
+```
