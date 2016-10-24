@@ -10,20 +10,20 @@ If Python is your first programming language or you don't know how loops
 work this section for you.
 
 You can ask me _Which version of Python to learn `Python2` or `Python3`?_
-Unfortunately both :-) but I recommend you to start with `Python 3.5` if you do
+Unfortunately both :-) but I recommend you to start with `Python 3.5` in case you do
 not have projects/work requirements for `Python2`. Then you should review
 breaking changes between versions.
 
- - [Learn Python the Hard Way - Zed Shaw](https://learnpythonthehardway.org/book/) PY2
- - [Think Python: How to Think Like a Computer Scientist - Allen B. Downey](http://interactivepython.org/runestone/static/thinkcspy/index.html) PY3
+ - [Learn Python the Hard Way - Zed Shaw](https://learnpythonthehardway.org/book/) `Python2`
+ - [Think Python: How to Think Like a Computer Scientist - Allen B. Downey](http://interactivepython.org/runestone/static/thinkcspy/index.html) `Python3`
 
 ## Novice
- - Python Essential Reference, 4th - David Beazley _(PY2)_
- - The Python Standard Library by Example, 1st - Doug Hellmann _(PY3)_
+ - Python Essential Reference, 4th - David Beazley `Python2`
+ - The Python Standard Library by Example, 1st - Doug Hellmann `Python3`
 
 ## Competent
- - Fluent Python, 1st - Luciano Ramalho _(PY3)_
- - Python Cookbook (3rd Edition) - David Beazley _(PY3)_
+ - Fluent Python, 1st - Luciano Ramalho `Python3`
+ - Python Cookbook (3rd Edition) - David Beazley `Python3`
 
 ## Proficient
-
+ - [CPython internals - Philip Guo](http://pgbovine.net/cpython-internals.htm)
