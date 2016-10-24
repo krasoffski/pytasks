@@ -1,18 +1,25 @@
 # Getting started with Python
 
-Depending on you current level of Python I will try to give you piece of advice 
-related to learning Python. You can find here recommended books and internet
-resources which correspond to your programming experience.
+Depending on you current level of Python I will try to give you piece of advice
+related to learning Python. You can find recommended books and internet
+resources which correspond to your programming experience bellow.
 
+This literature contains a lot of code examples. Please, do not be lazy and
+just copy/paste everything from source code examples and rename a few things
+but code out each bit yourself. For example, place book examples on the left
+side of your screen and place your text editor or IDE on the right side. Then
+line by line retype most complex and interesting examples from books and sites.
+The goal here is repetition, which will build up memory so that you learn how
+to do these things on your own without googling.
 
 ## Beginner
-If Python is your first programming language or you don't know how loops 
+If Python is your first programming language or you don't know how loops
 work this section for you.
 
 You can ask me _Which version of Python to learn `Python2` or `Python3`?_
-Unfortunately both :-) but I recommend you to start with `Python 3.5` in case you do
-not have projects/work requirements for `Python2`. Then you should review
-breaking changes between versions.
+Unfortunately both :-) but I recommend you to start with `Python 3.5` in case
+you do not have projects/work requirements for `Python2`. Then you should
+review breaking changes between versions.
 
  - Learn Python the Hard Way - Zed Shaw [`Python2`][b1]
  - Think Python: How to Think Like a Computer Scientist - Allen B. Downey [`Python3`][b2]
@@ -27,6 +34,7 @@ breaking changes between versions.
 
 ## Proficient
  - CPython internals - Philip Guo [`Python2`][p1]
+
 
 [b1]: https://learnpythonthehardway.org/book/
 [b2]: http://interactivepython.org/runestone/static/thinkcspy/index.html
