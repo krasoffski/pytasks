@@ -38,7 +38,7 @@ topics such as iterators, decorators, properties and so forth. Here are books
 which are worth a look:
 
  - Python Essential Reference, 4th - David Beazley `Python2`
- - The Python Standard Library by Example, 1st - Doug Hellmann [`Python2`][n1]/[`Python3`][n2]
+ - The Python Standard Library by Example - Doug Hellmann [`Python2`][n1]/[`Python3`][n2]
 
 ## Competent
  - Fluent Python, 1st - Luciano Ramalho `Python3`
