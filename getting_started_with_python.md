@@ -25,13 +25,13 @@ review breaking changes between versions.
  - Think Python: How to Think Like a Computer Scientist - Allen B. Downey [`Python3`][b2]
 
 ## Novice
-After you get familiar with basic data types and language construction it is
+After you get familiar with basic data types and language constructions it is
 time for performing useful and interesting small tasks. The best way to learn
-new language is to have a lot of practice and follow best practice. It can be
-done with help of following awesome site: https://www.codewars.com/ Mentioned
-site contains a lot of tricky tasks created by experienced programmers grouped
-by complexity. Not to mention the fact, that you can check your solution using
-prepare tests.
+new language is to have a lot of practice and follow best practices. It can be
+done with help of following awesome site: https://www.codewars.com/ This site
+contains a lot of tricky tasks created by experienced programmers grouped by
+complexity. Not to mention the fact, that you can check your solution using
+prepared tests.
 
 Moreover, from this point we have to dive in Python standard library and Python
 topics such as iterators, decorators, properties and so forth. Here are books
