@@ -68,6 +68,7 @@ Location: /api/statuses/45
  - Very simple function factory.
  - Generator for downloading topics from reddit using closure.
  - Function and generator for expanding nested sequences.
+ - Enhanced version of existing zip functions.
 
 ### [Subprocess and regular expressions](tasks/subprocess_curses_and_regexp.md)
  - Curses based ssh config file viewer.
