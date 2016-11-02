@@ -31,7 +31,7 @@ new language is to have a lot of practice and follow best practices. It can be
 done with help of following awesome site: https://www.codewars.com/ This site
 contains a lot of tricky tasks created by experienced programmers grouped by
 complexity. Not to mention the fact, that you can check your solution using
-prepared tests. Not to mention the fact, that some the most popular solutions
+prepared tests. Also some the most popular solutions
 might use bad practices but this happen mostly for new tasks and quite rare.
 Furthermore, if your correct solution does not pass tests check `issue` link,
 some tasks might have incorrect tests.
