@@ -4,13 +4,13 @@ Depending on you current level of Python I will try to give you piece of advice
 related to learning Python. You can find recommended books and internet
 resources which correspond to your programming experience bellow.
 
-This literature contains a lot of code examples. Please, do not be lazy and
+**This literature contains a lot of code examples. Please, do not be lazy and
 just copy/paste everything from source code examples and rename a few things
 but code out each bit yourself. For example, place book examples on the left
 side of your screen and place your text editor or IDE on the right side. Then
 line by line retype most complex and interesting examples from books and sites.
 The goal here is repetition, which will build up memory so that you learn how
-to do these things on your own without googling.
+to do these things on your own without googling.**
 
 ## Beginner
 If Python is your first programming language or you don't know how loops
@@ -31,7 +31,10 @@ new language is to have a lot of practice and follow best practices. It can be
 done with help of following awesome site: https://www.codewars.com/ This site
 contains a lot of tricky tasks created by experienced programmers grouped by
 complexity. Not to mention the fact, that you can check your solution using
-prepared tests.
+prepared tests. Not to mention the fact, that some the most popular solutions
+might use bad practices but this happen mostly for new tasks and quite rare.
+Furthermore, if your correct solution does not pass tests check `issue` link,
+some tasks might have incorrect tests.
 
 Moreover, from this point we have to dive in Python standard library and Python
 topics such as iterators, decorators, properties and so forth. Here are books
