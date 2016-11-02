@@ -4,7 +4,7 @@ Depending on you current level of Python I will try to give you piece of advice
 related to learning Python. You can find recommended books and internet
 resources which correspond to your programming experience bellow.
 
-**This literature contains a lot of code examples. Please, do not be lazy and
+This literature contains a lot of code examples. **Please, do not be lazy and
 just copy/paste everything from source code examples and rename a few things
 but code out each bit yourself. For example, place book examples on the left
 side of your screen and place your text editor or IDE on the right side. Then
