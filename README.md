@@ -28,7 +28,7 @@ with `#` characters. Let me show you example:
 
 ```python
 from itertools import permutations
-print list(permutations('abc', 2))
+pprint(list(permutations('abc', 2)))
 # [('a', 'b'), ('a', 'c'), ('b', 'a'), ('b', 'c'), ('c', 'a'), ('c', 'b')]
 ```
 
