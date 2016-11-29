@@ -41,6 +41,7 @@ topics such as iterators, decorators, properties and so forth. Here are books
 which are worth a look:
 
  - Python Essential Reference, 4th - David Beazley `Python2`
+ - Core Python Programming - Wesley J Chun [`Python2`][n3]/[`Python3`][n4]
  - The Python Standard Library by Example - Doug Hellmann [`Python2`][n1]/[`Python3`][n2]
 
 ## Competent
@@ -56,5 +57,8 @@ which are worth a look:
 
 [n1]: https://pymotw.com/2/contents.html
 [n2]: https://pymotw.com/3/
+[n3]: http://corepython.com/cpp2e
+[n4]: http://corepython.com/cpp3ev2
+
 
 [p1]: http://pgbovine.net/cpython-internals.htm
