@@ -33,7 +33,7 @@ contains a lot of tricky tasks grouped by complexity which are created by
 experienced programmers. Not to mention the fact, that you can check your
 solution using prepared tests. Also some popular solutions might use bad
 practices but this happen mostly for new tasks and quite rare. Furthermore, if
-your correct solution does not pass tests check `issue` link, some tasks might
+your correct solution does not pass tests, check `issue` link, some tasks might
 have incorrect tests.
 
 Moreover, from this point we have to dive in Python standard library and Python
