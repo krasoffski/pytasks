@@ -14,7 +14,7 @@ to do these things on your own without googling.**
 
 ## Beginner
 If Python is your first programming language or you don't know how loops
-work this section for you.
+work this section is for you.
 
 You can ask me _Which version of Python to learn `Python2` or `Python3`?_
 Unfortunately both :-) but I recommend you to start with `Python 3.5` in case
