@@ -9,6 +9,7 @@ Study following links:
  - https://docs.python.org/2/howto/descriptor.html
  - http://habrahabr.ru/post/122082/
  - http://www.ibm.com/developerworks/library/os-pythondescriptors/
+ - https://speakerdeck.com/lig/your-own-orm-in-python-how-and-why
 
 Additional topics which might help you with home task (tips):
  - https://github.com/coleifer/peewee/blob/master/peewee.py
