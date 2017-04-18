@@ -81,10 +81,15 @@ Location: /api/statuses/45
  - Word counter in text files.
  - Simple analogue of Linux `grep` command.
 
+### [Descriptors and ORM concept](tasks/descriptors_and_orm.md)
+ - Person descriptor with value checking.
+ - Non-data descriptor for printing documentation.
+ - Implementation basic ORM using descriptors.
+
 ### Coming soon (not described ideas)...
  - Descriptors and properties.
  - Plug-ins in python.
- - Python reminder for linux. 
+ - Python reminder for linux.
  - Metaclasses.
 
 ## [Battleship game](tasks/pyttleship.md)

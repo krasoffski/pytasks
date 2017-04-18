@@ -1,26 +1,23 @@
-Python Home Task 04
-===================
+# Descriptors and ORM concept
 
-
-Helpful information
--------------------
+## Helpful information
 
 Study following links:
  - https://docs.python.org/2/howto/descriptor.html
- - http://habrahabr.ru/post/122082/
  - http://www.ibm.com/developerworks/library/os-pythondescriptors/
  - https://speakerdeck.com/lig/your-own-orm-in-python-how-and-why
+ - https://www.smallsurething.com/python-descriptors-made-simple/
 
-Additional topics which might help you with home task (tips):
+Additional topics which might help you with home tasks:
  - https://github.com/coleifer/peewee/blob/master/peewee.py
  - https://peewee.readthedocs.org/en/latest/
  - https://wiki.python.org/moin/HigherLevelDatabaseProgramming
 
 
-Subtask 1
----------
+## Subtask 1
 
-Create simple data descriptors like `BirthdayField`, `NameField`, `PhoneField` which can perform simple check of types and values.
+Create simple data descriptors like `BirthdayField`, `NameField`, `PhoneField`
+which can perform simple check of types and values.
 
 Example:
 
@@ -51,7 +48,7 @@ TypeError: Birthday must be datetime type
 >>> yury.name = None
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
-TypeError: Name must be string type
+TypeError: Name must be str type
 >>> yury.phone = "375 (25) 9355570"
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
@@ -60,10 +57,10 @@ etc.
 ```
 
 
-Subtask 2
----------
+## Subtask 2
 
-Create non-data descriptor like `DocAPI` which can provide class-level and instance-level documentation about methods and attributes.
+Create non-data descriptor like `DocAPI` which can provide class-level and
+instance-level documentation about methods and attributes.
 
 Example:
 
@@ -86,30 +83,32 @@ meth : Multiplies two values self.x and y.
 ```
 
 
-Subtask 3 (not mandatory)
----------
+## Subtask 3
 
-Create **very** simple [ORM] using data descriptors like in `Subtask 1` and [SQLite]3 python module to store fields in Data Base.
-After creating instances of model all fields mast be stored in SQLite DB.
+Create simple [ORM] using data descriptors like in `Subtask 1` which stores
+descriptor values in a database or files. E.g and [SQLite3].
 
 Example:
 
 ```python
 >>> from ormapi import Model, BirthdayField, NameField, PhoneField
 >>> class Person(Model):
-        __table__ = "persons"
-...     name = NameField()
-...     birthday = BirthdayField()
-...     phone = PhoneField()
+...    name = NameField()
+...    birthday = BirthdayField()
+...    phone = PhoneField()
 ...
 >>> p = Person()  # New row in table *persons* are created with default values for fields.
 >>> p.name = "Yury"  # Cell updated with new value.
 >>> # Or you can create special method to save (commit) the values to DB like bellow.
 >>> p.phone = "375 25 9355570"  # Not yet stored in DB.
->>> p.save()  # All changes commited to DB.
+>>> p.save()  # All changes saved.
 ```
+_Note: Implementation of method `Model.save()` is up to you. You can save
+value within `__set__` method of descriptors._
+
+_Note: This task requires knowledge of class decorators or metaclasses magic._
 
 
 [ORM]: https://en.wikipedia.org/wiki/Object-relational_mapping
-[SQLite]: https://en.wikipedia.org/wiki/SQLite
+[SQLite3]: https://en.wikipedia.org/wiki/SQLite
 
