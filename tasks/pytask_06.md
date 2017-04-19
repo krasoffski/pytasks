@@ -1,4 +1,4 @@
-# Python Home Task 06
+# Class linter and cache metaclasses
 
 
 ## Helpful information
@@ -22,8 +22,12 @@ class Creature(Linter):
     def __init__(self, genus):
         self.genus = genus
     def sound(self, msg):
-        print "{0}: {1}".format(self.genus, msg)
-man = Creature('man')
+        print("{0}: {1}".format(self.genus, msg))
+```
+
+Interactive usage example:
+```python
+>>> man = Creature('man')
 # Traceback (most recent call last):
 #  File "...", line 20, in <module>
 #    man.sound
@@ -39,23 +43,28 @@ Create metaclass which can add cache with common life time
 Example:
 
 ```python
->>> from miscripts import Cache
->>> from time import sleep
->>> class Foo(Cache):
-...     def __init__(self, x):
-...         self.x = x
-...     def mul(self, y):
-...         # Here is very long computation.
-...         sleep(10)
-...         return self.x * y
-...
+from cache import Cache
+from time import sleep
 
+
+class Foo(Cache):
+    def __init__(self, x):
+        self.x = x
+    def mul(self, y):
+        # Here is very long computation.
+        sleep(10)
+        return self.x * y
+```
+
+Interactive usage example:
+```python
 >>> foo = Foo(100)
 >>> # First calculation.
 >>> foo.mul(10)  # Takes 10 sec to get result.
 1000
 >>> # Second call with the same values return result from cache.
 >>> foo.mul(10)  # Returns result immediately.
+1000
 >>> # Third call after 15 sec takes again about 10 sec.
 >>> foo.mul(10)  # Takes 10 sec to get result again. Cache expired.
 1000

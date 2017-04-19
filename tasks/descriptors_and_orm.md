@@ -22,24 +22,29 @@ which can perform simple check of types and values.
 Example:
 
 ```python
->>> from datetime import datetime
->>> from fields import BirthdayField, NameField, PhoneField
->>> class Person(object):
-...     name = NameField()
-...     birthday = BirthdayField()
-...     phone = PhoneField()
-...
+from datetime import datetime
+from fields import BirthdayField, NameField, PhoneField
+
+
+class Person(object):
+    name = NameField()
+    birthday = BirthdayField()
+    phone = PhoneField()
+```
+
+Interactive usage example:
+```python
 >>> yury = Person()
->>> print yury.name
+>>> print(yury.name)
 None
 >>> yury.name = "Yury Krasouski"
->>> print yury.name
+>>> print(yury.name)
 Yury Krasouski
 >>> yury.birthday = datetime.strptime("1986-04-09", "%Y-%m-%d")
 >>> yury.phone = "375 25 9355570"
->>> print yury.phone
+>>> print(yury.phone)
 375 (25) 935-55-70
->>> print yury.birthday
+>>> print(yury.birthday)
 1986-04-09 00:00:00
 >>> yury.birthday = "April 09"
 Traceback (most recent call last):
@@ -65,19 +70,24 @@ instance-level documentation about methods and attributes.
 Example:
 
 ```python
->>> from miscripts import DocAPI
->>> class Foo(object):
-...     __doc__ = API()
-...     def __init__(self, x):
-...         self.x = x
-...     def meth(self, y):
-...         """Multiplies two values self.x and y."""
-...         return self.x * y
-...
->>> print Foo.__doc__
+from doclib import DocAPI
+
+
+class Foo(object):
+    __doc__ = API()
+    def __init__(self, x):
+        self.x = x
+    def meth(self, y):
+        """Multiplies two values self.x and y."""
+        return self.x * y
+```
+
+Interactive usage example:
+```python
+>>> print(Foo.__doc__)
 meth : Multiplies two values self.x and y.
 >>> foo = Foo(10)
->>> print foo.__doc__
+>>> print(foo.__doc__)
 x : int
 meth : Multiplies two values self.x and y.
 ```
@@ -87,16 +97,20 @@ meth : Multiplies two values self.x and y.
 
 Create simple [ORM] using data descriptors like in `Subtask 1` which stores
 descriptor values in a database or files. E.g and [SQLite3].
-
 Example:
 
 ```python
->>> from ormapi import Model, BirthdayField, NameField, PhoneField
->>> class Person(Model):
-...    name = NameField()
-...    birthday = BirthdayField()
-...    phone = PhoneField()
-...
+from myorm import Model, BirthdayField, NameField, PhoneField
+
+
+class Person(Model):
+   name = NameField()
+   birthday = BirthdayField()
+   phone = PhoneField()
+```
+
+Interactive usage example:
+```python
 >>> p = Person()  # New row in table *persons* are created with default values for fields.
 >>> p.name = "Yury"  # Cell updated with new value.
 >>> # Or you can create special method to save (commit) the values to DB like bellow.

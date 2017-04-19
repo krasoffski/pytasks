@@ -11,31 +11,30 @@ Study following links:
 
 ## Subtask 1
 
-Create multiprocess function `words_counter` to count occurrence of words in
-text files in specified path like on example:
+Create function `words_counter` using multiprocessing module to count occurrence
+of words in text files in specified path like on example:
 
-```python
-words = words_counter(path='/home/keda',
-                      glob_patterns=('*.py', '*.txt'),
-                      ignored_words=('else', 'ret*'),
-                      min_word_len=3)
-pprint(words)
-# {
-#     "import", 33,
-#     "print", 65,
-#     ...
-# }
+Interactive usage example:
+```python 
+>>> words = words_counter(path='/home/keda',
+                          glob_patterns=('*.py', '*.txt'),
+                          ignored_words=('else', 'ret*'),
+                          min_word_len=3)
+>>> print(words)
+{'import': 33, 'print': 65}
 ```
 
 
 ## Subtask 2
 
-Create multiprocess script `grep.py` analog of Linux `grep` command for
-performing parallel search. Nice to have following option implemented:
+Create script `grep.py` analog of Linux `grep` command using using 
+multiprocessing for performing parallel search.
+Nice to have following option implemented:
  - `-R` recursive search
  - `-n` number of line
  - `-p` number of processes (by default number of cores)
 
+Interactive usage example:
 ```bash
 $ grep.py -R -n 'user' /etc
 /etc/pam.d/sshd:51:# to run in the user's context should be run after this.
