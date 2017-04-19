@@ -16,22 +16,20 @@ to perform final task [pyttleship](tasks/pyttleship.md).
 
 Not to mention the fact, that main goal of this tasks is to use only Python
 standard library. Most of all tasks designed for `python2.7` but can be easily
-adopted for 3th version of Python.
+performed for 3th version of Python.
 
 ## Conventions
 
-Here are some notes about code conventions.
+Here are notes about code conventions.
 
 ### Python examples
 
-Usually python examples contain code and expected output which is commented
-with `#` characters. Let me show you example:
+Usually python examples contain code and output for examples performed in the
+python interactive shell. 
 
 Basic example:
 ```python
 from itertools import permutations
-
-
 gen = permutations('abc', 2)
 ```
 
@@ -90,11 +88,14 @@ Location: /api/statuses/45
  - Non-data descriptor for printing documentation.
  - Implementation basic ORM using descriptors.
 
+### [Class linter and cache metaclasses](tasks/linter_and_cache_metaclasses.md)
+ - Linter metaclass for checking class documentation and attribute names.
+ - Cache metaclass for caching long calculations results
+
 ### Coming soon (not described ideas)...
  - Descriptors and properties.
  - Plug-ins in python.
  - Python reminder for linux.
- - Metaclasses.
 
 ## [Battleship game](tasks/pyttleship.md)
 `Pyttleship` is python implementation of world-popular game [Battleship].
