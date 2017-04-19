@@ -28,10 +28,10 @@ class Creature(Linter):
 Interactive usage example:
 ```python
 >>> man = Creature('man')
-# Traceback (most recent call last):
-#  File "...", line 20, in <module>
-#    man.sound
-# LinterError: 'sound' has no documentation sting.
+Traceback (most recent call last):
+ File "...", line 20, in <module>
+   man.sound
+LinterError: 'sound' has no documentation sting.
 ```
 
 
