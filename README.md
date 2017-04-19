@@ -2,7 +2,8 @@
 
 ## [Getting started with Python](getting_started_with_python.md)
 
-TODO: Define plan for learning Python.
+List of recommended literature according to your level and a piece of advice.
+
 
 ## Introduction
 
