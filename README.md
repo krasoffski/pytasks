@@ -34,9 +34,10 @@ gen = permutations('abc', 2)
 ```
 
 Another interactive example with exception:
-```python
+```text
 >>> with open('/tmp/file.txt') as fd:
-        data = fd.read()
+...     data = fd.read()
+...
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 IOError: [Errno 2] No such file or directory: '/tmp/file.txt'
