@@ -65,7 +65,7 @@ etc.
 ## Subtask 2
 
 Create non-data descriptor like `DocAPI` which can provide class-level and
-instance-level documentation about methods and attributes.
+instance-level documentation about user methods and attributes.
 
 Example:
 
