@@ -27,20 +27,23 @@ Here are some notes about code conventions.
 Usually python examples contain code and expected output which is commented
 with `#` characters. Let me show you example:
 
+Basic example:
 ```python
 from itertools import permutations
-pprint(list(permutations('abc', 2)))
-# [('a', 'b'), ('a', 'c'), ('b', 'a'), ('b', 'c'), ('c', 'a'), ('c', 'b')]
+
+
+gen = permutations('abc', 2)
 ```
 
-Another python example with exception:
-
+Another interactive example with exception:
 ```python
-with open('/tmp/file.txt') as fd:
-    data = fd.read()
-# Traceback (most recent call last):
-#   File "<stdin>", line 1, in <module>
-# IOError: [Errno 2] No such file or directory: '/tmp/file.txt'
+>>> with open('/tmp/file.txt') as fd:
+        data = fd.read()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IOError: [Errno 2] No such file or directory: '/tmp/file.txt'
+>>> print(list(gen))
+[('a', 'b'), ('a', 'c'), ('b', 'a'), ('b', 'c'), ('c', 'a'), ('c', 'b')]
 ```
 
 ### Bash examples
