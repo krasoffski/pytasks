@@ -68,7 +68,6 @@ Create non-data descriptor like `DocAPI` which can provide class-level and
 instance-level documentation about user methods and attributes.
 
 Example:
-
 ```python
 from doclib import DocAPI
 
@@ -96,9 +95,9 @@ meth : Multiplies two values self.x and y.
 ## Subtask 3
 
 Create simple [ORM] using data descriptors like in `Subtask 1` which stores
-descriptor values in a database or files. E.g and [SQLite3].
-Example:
+descriptor values in a database or files. E.g [SQLite3].
 
+Example:
 ```python
 from myorm import Model, BirthdayField, NameField, PhoneField
 
@@ -111,18 +110,16 @@ class Person(Model):
 
 Interactive usage example:
 ```python
->>> p = Person()  # New row in table *persons* are created with default values for fields.
->>> p.name = "Yury"  # Cell updated with new value.
->>> # Or you can create special method to save (commit) the values to DB like bellow.
->>> p.phone = "375 25 9355570"  # Not yet stored in DB.
+>>> p = Person()
+>>> p.name = "Yury"
+>>> p.phone = "375 25 9355570"
 >>> p.save()  # All changes saved.
 ```
 _Note: Implementation of method `Model.save()` is up to you. You can save
 value within `__set__` method of descriptors._
 
-_Note: This task requires knowledge of class decorators or metaclasses magic._
+_Note: This task requires knowledge of class decorators or metaclasses "magic"._
 
 
 [ORM]: https://en.wikipedia.org/wiki/Object-relational_mapping
 [SQLite3]: https://en.wikipedia.org/wiki/SQLite
-
