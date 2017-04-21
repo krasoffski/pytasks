@@ -18,7 +18,7 @@ work this section is for you.
 
 You can ask me _Which version of Python to learn `Python2` or `Python3`?_
 Unfortunately both :-) but I recommend you to start with `Python 3.5` in case
-you do not have projects/work requirements for `Python2`. Then you should
+you do not have projects/work requirements for `Python 2.7`. Then you should
 review breaking changes between versions.
 
  - Learn Python the Hard Way - Zed Shaw [`Python2`][b1]
