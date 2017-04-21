@@ -30,8 +30,8 @@ time for performing useful and interesting small tasks. The best way to learn
 new language is to have a lot of coding and follow best practices. It can be
 done with help of following awesome sites like:
 
- - https://www.codewars.com/
- - https://www.hackerrank.com/
+ - https://www.codewars.com
+ - https://www.hackerrank.com
  
 These sites contain a lot of tricky tasks grouped by complexity which are created by
 experienced programmers. Not to mention the fact, that you can check your
