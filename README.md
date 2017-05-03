@@ -24,7 +24,7 @@ Here are notes about code conventions.
 
 ### Python examples
 
-Usually python examples contain code and output for examples performed in the
+Usually python examples contain code and expected output in the
 python interactive shell. 
 
 Basic example:
