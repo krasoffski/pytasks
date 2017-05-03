@@ -44,7 +44,7 @@ In our python implementation of game we are going to follow Russian rules:
 _Note: you can implement client for web browser using JavaScript, TKinter for
 GUI client or [curses (ncurses)] for CLI fans._
 
-_Note: if you became boring with implementation of you own "web framework you
+_Note: if you became boring with implementation of you own "web framework" you
 can use any popular such as `flask`, `itty`, `Bottle`, `web2py`, `falcon`._
 
 
