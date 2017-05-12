@@ -51,7 +51,7 @@ which are worth a look:
 ## Competent
  - Fluent Python, 1st - Luciano Ramalho `Python3`
  - Python Cookbook, 3rd - David Beazley `Python3`
- - Python in a Nutshell, 3rd - Alex Martelli `Python3`
+ - Python in a Nutshell, 3rd - Alex Martelli `Python2`/`Python3`
 
 ## Proficient
  - CPython internals - Philip Guo [`Python2`][p1]
