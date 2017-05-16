@@ -12,6 +12,7 @@ line by line retype most complex and interesting examples from books and sites.
 The goal here is repetition, which will build up memory so that you learn how
 to do these things on your own without googling.**
 
+
 ## Beginner
 If Python is your first programming language or you don't know how loops
 work this section is for you.
@@ -23,6 +24,7 @@ review breaking changes between versions.
 
  - Learn Python the Hard Way - Zed Shaw [`Python2`][b1]
  - Think Python: How to Think Like a Computer Scientist - Allen B. Downey [`Python3`][b2]
+
 
 ## Novice
 After you get familiar with basic data types and language constructions it is
@@ -48,13 +50,22 @@ which are worth a look:
  - Core Python Programming - Wesley J Chun [`Python2`][n3]/[`Python3`][n4]
  - The Python Standard Library by Example - Doug Hellmann [`Python2`][n1]/[`Python3`][n2]
 
+
 ## Competent
  - Fluent Python, 1st - Luciano Ramalho `Python3`
  - Python Cookbook, 3rd - David Beazley `Python3`
  - Python in a Nutshell, 3rd - Alex Martelli `Python2`/`Python3`
 
+
 ## Proficient
  - CPython internals - Philip Guo [`Python2`][p1]
+
+
+## Recommended
+Here is a list of non-python books recommended for reading.
+ - The Passionate Programmer, 1st - Chad Fowler
+ - The Pragmatic Programmer: From Journeyman to Master, 1st - Andrew Hunt
+ - Code Complete: A Practical Handbook of Software Construction, 2nd - Steve McConnell
 
 
 [b1]: https://learnpythonthehardway.org/book/
