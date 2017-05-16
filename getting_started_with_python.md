@@ -61,7 +61,7 @@ which are worth a look:
  - CPython internals - Philip Guo [`Python2`][p1]
 
 
-## Recommended
+# General books
 Here is a list of non-python books recommended for reading.
  - The Passionate Programmer, 1st - Chad Fowler
  - The Pragmatic Programmer: From Journeyman to Master, 1st - Andrew Hunt
