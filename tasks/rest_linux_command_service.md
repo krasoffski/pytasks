@@ -167,5 +167,5 @@ _Note: it is better to use `http` command for debug purposes._
 
 Add following enhancement to your existing service:
  - Add ability to specify search query to GET request.
- - Create `Mixin` class with add SSL to you HTTP server.
+ - Create `Mixin` class which adds SSL support to you HTTP server.
  - Authentication via "token".
