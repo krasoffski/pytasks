@@ -1,6 +1,6 @@
 # Getting started with Python
 
-Depending on you current level of Python I will try to give you piece of advice
+Depending on your current level of Python I will try to give you piece of advice
 related to learning Python. You can find recommended books and internet
 resources which correspond to your programming experience bellow.
 
