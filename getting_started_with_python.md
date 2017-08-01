@@ -66,6 +66,7 @@ Here is a list of non-python books recommended for reading.
  - The Passionate Programmer, 1st - Chad Fowler
  - The Pragmatic Programmer: From Journeyman to Master, 1st - Andrew Hunt
  - Code Complete: A Practical Handbook of Software Construction, 2nd - Steve McConnell
+ - How Linux Works: What Every Superuser Should Know, 2nd - Brian Ward
 
 
 [b1]: https://learnpythonthehardway.org/book/
