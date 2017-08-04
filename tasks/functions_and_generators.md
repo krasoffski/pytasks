@@ -101,4 +101,6 @@ import types
 g = izip_repeat('ab', [0, 1])
 print(type(g))
 # <type 'generator'>
+isinstance(g, types.GeneratorType)
+# True
 ```
