@@ -100,7 +100,7 @@ Moreover, make sure you created a generator not function:
 import types
 g = izip_repeat('ab', [0, 1])
 print(type(g))
-# <type 'generator'>
+# <type 'generator'> or <class 'generator'> for Python3
 isinstance(g, types.GeneratorType)
 # True
 ```
