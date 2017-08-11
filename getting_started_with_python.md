@@ -63,9 +63,13 @@ which are worth a look:
 
 # General books
 Here is a list of non-python books recommended for reading.
+
+Soft skills:
  - The Passionate Programmer, 1st - Chad Fowler
  - The Pragmatic Programmer: From Journeyman to Master, 1st - Andrew Hunt
  - Code Complete: A Practical Handbook of Software Construction, 2nd - Steve McConnell
+ 
+Hard skills:
  - How Linux Works: What Every Superuser Should Know, 2nd - Brian Ward
 
 
