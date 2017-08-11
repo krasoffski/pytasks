@@ -59,6 +59,7 @@ which are worth a look:
 
 ## Proficient
  - CPython internals - Philip Guo [`Python2`][p1]
+ - Inside The Python Virtual Machine - Obi Ike-Nwosu [`Python3`][p2]
 
 
 # General books
@@ -84,3 +85,4 @@ Hard skills:
 
 
 [p1]: http://pgbovine.net/cpython-internals.htm
+[p2]: https://leanpub.com/insidethepythonvirtualmachine
