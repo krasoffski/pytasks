@@ -71,6 +71,7 @@ Soft skills:
  
 Hard skills:
  - How Linux Works: What Every Superuser Should Know, 2nd - Brian Ward
+ - Design Patterns: Elements of Reusable Object-Oriented Software - GoF
 
 
 [b1]: https://learnpythonthehardway.org/book/
