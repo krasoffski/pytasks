@@ -25,7 +25,7 @@ In our python implementation of game we are going to follow Russian rules:
  - Uses only python standard library.
  - Respects [PEP8].
  - Utilizes [REST] as a communication mechanism.
- - Uses powerful of [OOP] where it makes sense.
+ - Uses power of [OOP] where it makes sense.
  - Provides useful logging.
  - Should be launched on Linux.
  - Well documented.
