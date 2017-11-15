@@ -2,7 +2,7 @@
 
 ## [Getting started with Python](getting_started_with_python.md)
 
-List of recommended literature according to your level and a piece of advice.
+List of recommended literature according to your level and a piece of advice from me.
 
 
 ## Introduction
