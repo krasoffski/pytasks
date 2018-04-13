@@ -60,6 +60,11 @@ which are worth a look:
 ## Proficient
  - CPython internals - Philip Guo [`Python2`][p1]
  - Inside The Python Virtual Machine - Obi Ike-Nwosu [`Python3`][p2]
+ - Python insternals - Eli Bendersky [`Python2`][p3]
+ - Python Innards series - Yaniv Aknin [`Python2`][p6]
+ - Python Internals Series - Allison Kaptur [`Python2`][p7]
+ - Extending and Embedding the Python Interpreter [`Python2`][p4]/[`Python3`][p5]
+ 
 
 
 # General books
@@ -86,3 +91,9 @@ Hard skills:
 
 [p1]: http://pgbovine.net/cpython-internals.htm
 [p2]: https://leanpub.com/insidethepythonvirtualmachine
+[p3]: https://eli.thegreenplace.net/tag/python-internals
+[p4]: https://docs.python.org/2.7/extending/index.html
+[p5]: https://docs.python.org/3.6/extending/index.html
+[p6]: https://tech.blog.aknin.name/category/my-projects/pythons-innards/
+[p7]: http://akaptur.com/blog/categories/python-internals/
+
