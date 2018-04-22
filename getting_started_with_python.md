@@ -58,6 +58,7 @@ which are worth a look:
 
 
 ## Proficient
+ - Exploring CPython’s Internals - Python Developer's Guide [`Python2/Python3`][p8]
  - CPython internals - Philip Guo [`Python2`][p1]
  - Inside The Python Virtual Machine - Obi Ike-Nwosu [`Python3`][p2]
  - Python insternals - Eli Bendersky [`Python2`][p3]
@@ -96,4 +97,5 @@ Hard skills:
 [p5]: https://docs.python.org/3.6/extending/index.html
 [p6]: https://tech.blog.aknin.name/category/my-projects/pythons-innards/
 [p7]: http://akaptur.com/blog/categories/python-internals/
+[p8]: https://devguide.python.org/exploring/
 
