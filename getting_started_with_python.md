@@ -49,7 +49,7 @@ which are worth a look:
  - Python Essential Reference, 4th - David Beazley `Python2`
  - Core Python Programming - Wesley J Chun [`Python2`][n3]/[`Python3`][n4]
  - The Python Standard Library by Example - Doug Hellmann [`Python2`][n1]/[`Python3`][n2]
-
+ - Expert Python Programming, 1st/2nd - Tarek Ziade [`Python2`][n5]/[`Python3`][n5]
 
 ## Competent
  - Fluent Python, 1st - Luciano Ramalho `Python3`
@@ -88,6 +88,8 @@ Hard skills:
 [n2]: https://pymotw.com/3/
 [n3]: http://corepython.com/cpp2e
 [n4]: http://corepython.com/cpp3ev2
+[n5]: https://www.amazon.com/dp/184719494X
+[n6]: https://www.amazon.com/gp/product/B01D31OAC6
 
 
 [p1]: http://pgbovine.net/cpython-internals.htm
